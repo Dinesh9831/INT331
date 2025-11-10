@@ -7,11 +7,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelEncoder
 
+
 # -----------------------------------------------------
 #  2. Load Dataset
 # -----------------------------------------------------
 df = pd.read_csv(r"C:\Users\LENOVO\Desktop\Predective_Analysis\ecommerce_customers_unit1.csv")
-
 print(" DATA LOADED SUCCESSFULLY\n")
 
 # -----------------------------------------------------
